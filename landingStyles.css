@@ -1,0 +1,347 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 99%;
+  height: 98%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  background: #1661b871;
+}
+
+.container {
+  position: absolute;
+  width: 10em;
+  height: 5em;
+  font-size: 50px;
+  overflow: hidden;
+}
+
+.wave {
+  border-width: 0.11em;
+  border-style: solid;
+  position: absolute;
+  -webkit-animation: wave 1500ms infinite alternate;
+          animation: wave 1500ms infinite alternate;
+  -webkit-transform: rotate(-44.5deg);
+          transform: rotate(-44.5deg);
+}
+.wave:nth-child(1) {
+  width: 9.5125em;
+  height: 9.5125em;
+  bottom: -4.75625em;
+  left: 0.24375em;
+  -webkit-animation-delay: 75ms;
+          animation-delay: 75ms;
+  border-color: transparent transparent #1a45bc #1a45bc;
+  border-radius: 9.5125em;
+}
+.wave:nth-child(2) {
+  width: 9.025em;
+  height: 9.025em;
+  bottom: -4.5125em;
+  left: 0.4875em;
+  -webkit-animation-delay: 150ms;
+          animation-delay: 150ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.90476) rgba(255, 255, 255, 0.90476);
+  border-radius: 9.025em;
+}
+.wave:nth-child(3) {
+  width: 8.5375em;
+  height: 8.5375em;
+  bottom: -4.26875em;
+  left: 0.73125em;
+  -webkit-animation-delay: 225ms;
+          animation-delay: 225ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.85714) rgba(26, 69, 188, 0.85714);
+  border-radius: 8.5375em;
+}
+.wave:nth-child(4) {
+  width: 8.05em;
+  height: 8.05em;
+  bottom: -4.025em;
+  left: 0.975em;
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.80952) rgba(255, 255, 255, 0.80952);
+  border-radius: 8.05em;
+}
+.wave:nth-child(5) {
+  width: 7.5625em;
+  height: 7.5625em;
+  bottom: -3.78125em;
+  left: 1.21875em;
+  -webkit-animation-delay: 375ms;
+          animation-delay: 375ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.7619) rgba(26, 69, 188, 0.7619);
+  border-radius: 7.5625em;
+}
+.wave:nth-child(6) {
+  width: 7.075em;
+  height: 7.075em;
+  bottom: -3.5375em;
+  left: 1.4625em;
+  -webkit-animation-delay: 450ms;
+          animation-delay: 450ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.71429) rgba(255, 255, 255, 0.71429);
+  border-radius: 7.075em;
+}
+.wave:nth-child(7) {
+  width: 6.5875em;
+  height: 6.5875em;
+  bottom: -3.29375em;
+  left: 1.70625em;
+  -webkit-animation-delay: 525ms;
+          animation-delay: 525ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.66667) rgba(26, 69, 188, 0.66667);
+  border-radius: 6.5875em;
+}
+.wave:nth-child(8) {
+  width: 6.1em;
+  height: 6.1em;
+  bottom: -3.05em;
+  left: 1.95em;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.61905) rgba(255, 255, 255, 0.61905);
+  border-radius: 6.1em;
+}
+.wave:nth-child(9) {
+  width: 5.6125em;
+  height: 5.6125em;
+  bottom: -2.80625em;
+  left: 2.19375em;
+  -webkit-animation-delay: 675ms;
+          animation-delay: 675ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.57143) rgba(26, 69, 188, 0.57143);
+  border-radius: 5.6125em;
+}
+.wave:nth-child(10) {
+  width: 5.125em;
+  height: 5.125em;
+  bottom: -2.5625em;
+  left: 2.4375em;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.52381) rgba(255, 255, 255, 0.52381);
+  border-radius: 5.125em;
+}
+.wave:nth-child(11) {
+  width: 4.6375em;
+  height: 4.6375em;
+  bottom: -2.31875em;
+  left: 2.68125em;
+  -webkit-animation-delay: 825ms;
+          animation-delay: 825ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.47619) rgba(26, 69, 188, 0.47619);
+  border-radius: 4.6375em;
+}
+.wave:nth-child(12) {
+  width: 4.15em;
+  height: 4.15em;
+  bottom: -2.075em;
+  left: 2.925em;
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.42857) rgba(255, 255, 255, 0.42857);
+  border-radius: 4.15em;
+}
+.wave:nth-child(13) {
+  width: 3.6625em;
+  height: 3.6625em;
+  bottom: -1.83125em;
+  left: 3.16875em;
+  -webkit-animation-delay: 975ms;
+          animation-delay: 975ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.38095) rgba(26, 69, 188, 0.38095);
+  border-radius: 3.6625em;
+}
+.wave:nth-child(14) {
+  width: 3.175em;
+  height: 3.175em;
+  bottom: -1.5875em;
+  left: 3.4125em;
+  -webkit-animation-delay: 1050ms;
+          animation-delay: 1050ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.33333) rgba(255, 255, 255, 0.33333);
+  border-radius: 3.175em;
+}
+.wave:nth-child(15) {
+  width: 2.6875em;
+  height: 2.6875em;
+  bottom: -1.34375em;
+  left: 3.65625em;
+  -webkit-animation-delay: 1125ms;
+          animation-delay: 1125ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.28571) rgba(26, 69, 188, 0.28571);
+  border-radius: 2.6875em;
+}
+.wave:nth-child(16) {
+  width: 2.2em;
+  height: 2.2em;
+  bottom: -1.1em;
+  left: 3.9em;
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.2381) rgba(255, 255, 255, 0.2381);
+  border-radius: 2.2em;
+}
+.wave:nth-child(17) {
+  width: 1.7125em;
+  height: 1.7125em;
+  bottom: -0.85625em;
+  left: 4.14375em;
+  -webkit-animation-delay: 1275ms;
+          animation-delay: 1275ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.19048) rgba(26, 69, 188, 0.19048);
+  border-radius: 1.7125em;
+}
+.wave:nth-child(18) {
+  width: 1.225em;
+  height: 1.225em;
+  bottom: -0.6125em;
+  left: 4.3875em;
+  -webkit-animation-delay: 1350ms;
+          animation-delay: 1350ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.14286) rgba(255, 255, 255, 0.14286);
+  border-radius: 1.225em;
+}
+.wave:nth-child(19) {
+  width: 0.7375em;
+  height: 0.7375em;
+  bottom: -0.36875em;
+  left: 4.63125em;
+  -webkit-animation-delay: 1425ms;
+          animation-delay: 1425ms;
+  border-color: transparent transparent rgba(26, 69, 188, 0.09524) rgba(26, 69, 188, 0.09524);
+  border-radius: 0.7375em;
+}
+.wave:nth-child(20) {
+  width: 0.25em;
+  height: 0.25em;
+  bottom: -0.125em;
+  left: 4.875em;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
+  border-color: transparent transparent rgba(255, 255, 255, 0.04762) rgba(255, 255, 255, 0.04762);
+  border-radius: 0.25em;
+}
+
+@-webkit-keyframes wave {
+  to {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+}
+
+@keyframes wave {
+  to {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+}
+
+#Enter {
+    margin-top: 17.5em;
+
+}
+
+
+
+.btn {
+    color: #fff;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin-top: 20em;
+    max-width: 160px; 
+    position: relative;
+    text-decoration: none;
+    width: 100%; 
+    border-radius: 10px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn-1 {
+  background:rgba(26, 69, 188, 1);
+  font-weight: 100;
+  position: relative;}
+
+.btn-1 svg {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 10px;
+}
+.btn-1 rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-dasharray: 422, 0;
+  -webkit-transition: all 0.35s linear;
+  transition: all 0.35s linear;
+  border-radius: 10px;
+}
+
+.btn:hover {
+    color: black;
+    font-weight: 600;
+}
+
+.btn-1:hover {
+  background: rgba(225, 51, 45, 0);
+  font-weight: 50000;
+  letter-spacing: 0.35px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn-1:hover rect {
+  stroke-width: 10;
+  stroke-dasharray: 15, 310;
+  stroke-dashoffset: 48;
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
