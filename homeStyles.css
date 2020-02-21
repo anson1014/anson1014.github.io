@@ -128,6 +128,61 @@ h2{
   
 }
 
+
+@media (max-width: 500px) {
+  .palletteImages
+{
+width: 75px !important; 
+-webkit-box-shadow: 0 28px 16px -26px black;
+-moz-box-shadow: 0 28px 16px -26px black;
+box-shadow: 0 28px 16px -26px black;
+}
+
+.imageContainer{
+  display: grid;
+  justify-content: center;
+  margin-top: 2em;
+  grid-template-columns: 75px 75px 75px 75px !important;
+  grid-template-rows: 75px 75px !important;
+  grid-gap: 10px !important;
+  
+}
+
+.slides {
+  padding: 0;
+  width: 350px !important;
+  height: 240px !important;
+  display: block;
+  margin: 4.5em auto;
+  position: relative;
+}
+
+.btn {
+  background: transparent;
+  border: none !important;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size:16px;
+  font-weight: 600;
+  position: relative;
+  width: 100%; 
+  color: white;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.btn:hover{
+background: #b7d9ff;
+color: black;
+font-size: 30px;
+font-weight: 600;
+
+}
+
+}
+
 @media (max-width: 1200px){
 .palletteImages
 {
@@ -155,6 +210,8 @@ box-shadow: 0 28px 16px -26px black;
   margin: 4.5em auto;
   position: relative;
 }
+
+
 
 }
 
