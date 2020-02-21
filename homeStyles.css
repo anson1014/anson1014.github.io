@@ -181,6 +181,35 @@ font-weight: 600;
 
 }
 
+.nav label {
+
+  height: 90%;
+  display: none;
+  position: absolute;
+
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+
+  transition: opacity .2s;
+
+  color: transparent !important;
+  font-size: 156pt;
+  text-align: center;
+  line-height: 380px;
+  font-family: "Varela Round", sans-serif;
+  background-color: transparent !important;
+  text-shadow: none !important;
+}
+
+.nav-dots {
+	width: 100%;
+	bottom: 0px !important;
+	display: block;
+  position: absolute;
+	text-align: center;
+}
+
 }
 
 @media (max-width: 1200px){
