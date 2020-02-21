@@ -132,7 +132,7 @@ h2{
 @media (max-width: 500px) {
   .palletteImages
 {
-width: 75px !important; 
+width: 80px !important; 
 -webkit-box-shadow: 0 28px 16px -26px black;
 -moz-box-shadow: 0 28px 16px -26px black;
 box-shadow: 0 28px 16px -26px black;
@@ -142,8 +142,8 @@ box-shadow: 0 28px 16px -26px black;
   display: grid;
   justify-content: center;
   margin-top: 2em;
-  grid-template-columns: 75px 75px 75px 75px !important;
-  grid-template-rows: 75px 75px !important;
+  grid-template-columns: 80px 80px 80px 80px  !important;
+  grid-template-rows: 80px 80px !important;
   grid-gap: 10px !important;
   
 }
