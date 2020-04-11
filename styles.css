@@ -640,7 +640,7 @@ transition:all .3s ease-in-out;
     height: 20px;
     top: 50%;
     margin-top: 0;
-    font-family: "Fira Mono";
+    font-family: 'Fira Mono', monospace;
     color:rgb(226, 226, 226);
     font-weight: 600;
   }
@@ -799,7 +799,7 @@ transition:all .3s ease-in-out;
     height: 25px;
     top: 50%;
     margin-top: 0;
-    font-family: "Fira Mono";
+    font-family: 'Fira Mono', monospace;
     color:rgb(226, 226, 226);
     font-weight: 600;
   }
@@ -963,7 +963,7 @@ transition:all .3s ease-in-out;
     height: 35px;
     top: 50%;
     margin-top: 0;
-    font-family: "Fira Mono";
+    font-family: 'Fira Mono', monospace;
     color:rgb(226, 226, 226);
     font-weight: 600;
   }
@@ -1241,7 +1241,7 @@ transition:all .3s ease-in-out;
     height: 40px;
     top: 50%;
     margin-top: 0;
-    font-family: "Fira Mono";
+    font-family: 'Fira Mono', monospace;
     color:rgb(226, 226, 226);
     font-weight: 600;
   }
@@ -1403,7 +1403,7 @@ transition:all .3s ease-in-out;
     height: 40px;
     top: 50%;
     margin-top: 0;
-    font-family: "Fira Mono";
+    font-family: 'Fira Mono', monospace;
     color:rgb(226, 226, 226);
     font-weight: 600;
   }
