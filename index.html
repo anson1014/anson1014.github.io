@@ -1,280 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anson Chung</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anson Chung</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="resources/favicon.ico"
+        />
+    </head>
 
-<body>  
-
-    <div class = 'landing-container'>
-
-        <!-----------------------------GRAPHIC-------------------------------->
-        <div class = 'title'> 
-            <canvas id='canvas'></canvas>
-        </div>
-
-
-        <!------------------------------NAME----------------------------------->
-        <div class="content">
-            <div class="content__container">
-              <p class="content__container__text">
-                hey! i'm
-              </p>
-              
-              <ul class="content__container__list">
-                <li class="content__container__list__item">Anson.</li>
-                <li class="content__container__list__item">a software dev.</li>
-                <li class="content__container__list__item">a student.</li>
-                <li class="content__container__list__item">Anson.</li>
-              </ul>
+    <body>
+        <div class="landing-container">
+            <!-----------------------------GRAPHIC-------------------------------->
+            <div class="title">
+                <canvas id="canvas"></canvas>
             </div>
-        </div>    
 
-        <!----------------------------OBJECT------------------------------>
-        <div class="descrip"> 
-            <p class = 'decl'> const
-                <span style='color: rgb(226, 226, 226)'> me </span> 
-                <span style='color: rgb(66, 207, 200)'> = </span>
-                <span style='color: rgb(212, 167, 18)'> { </span>
-            </p>
-            <div class = 'fields'>
-                <p class="word">
-                    name:"Anson_Chung"
-                </p>
-                <p class="word">
-                    studentStatus:[true, UBC]
-                </p>
-                <p class="word">
-                    lookingForJob:true
-                </p>
+            <!------------------------------NAME----------------------------------->
+            <div class="content">
+                <div class="content__container">
+                    <p class="content__container__text">
+                        hey! i'm
+                    </p>
+
+                    <ul class="content__container__list">
+                        <li class="content__container__list__item">Anson.</li>
+                        <li class="content__container__list__item">
+                            a software dev.
+                        </li>
+                        <li class="content__container__list__item">
+                            a student.
+                        </li>
+                        <li class="content__container__list__item">Anson.</li>
+                    </ul>
+                </div>
             </div>
-            <p style='color: rgb(212, 167, 18)' class = 'decl'> } </p>
+
+            <!----------------------------OBJECT------------------------------>
+            <div class="descrip">
+                <p class="decl">
+                    const
+                    <span style="color: rgb(226, 226, 226)"> me </span>
+                    <span style="color: rgb(66, 207, 200)"> = </span>
+                    <span style="color: rgb(212, 167, 18)"> { </span>
+                </p>
+                <div class="fields">
+                    <p class="word">
+                        name:"Anson_Chung"
+                    </p>
+                    <p class="word">
+                        studentStatus:[true, UBC]
+                    </p>
+                    <p class="word">
+                        lookingForJob:true
+                    </p>
+                </div>
+                <p style="color: rgb(212, 167, 18)" class="decl">}</p>
+            </div>
         </div>
-    </div>
 
-    <!---------------------------NAV BUTTONS---------------------------->
-    <div class = 'navBar'>
-        <a href="#" class="btn">Projects</a>
-        <a href="#" class="btn">Work</a>
-        <a href="#" class="btn">About</a>
-        <a href="#" class="btn">Resume</a>
-    </div>
-
-
-    <!--------------------------PROJECT TILES--------------------------->
-    <div class = "project-container">
-        <div class = 'icon-wrap'>
-            <h1 class = 'header'> Projects </h1>
-            <a href="#" class="social-buttons__button social-button social-button--github" aria-label="GitHub">
-                <span class="social-button__inner">
-                 <i class="fab fa-github"></i>
-                </span>
-              </a>   
+        <!---------------------------NAV BUTTONS---------------------------->
+        <div class="navBar">
+            <a href="#" class="btn">Projects</a>
+            <a href="#" class="btn">Work</a>
+            <a href="#" class="btn">About</a>
+            <a href="#" class="btn">Resume</a>
         </div>
-        <h2 class = 'notify'> click the projects or click the button to view them on GitHub :)</h2> 
-        
 
+        <!--------------------------PROJECT TILES--------------------------->
+        <div class="project-container">
+            <div class="icon-wrap">
+                <h1 class="header">Projects</h1>
+                <a
+                    href="#"
+                    class="social-buttons__button social-button social-button--github"
+                    aria-label="GitHub"
+                >
+                    <span class="social-button__inner">
+                        <i class="fab fa-github"></i>
+                    </span>
+                </a>
+            </div>
+            <h2 class="notify">
+                click the projects or click the button to view them on GitHub :)
+            </h2>
 
-        <div class="wrap">
-
-            <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
+            <div class="wrap">
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80"
+                    />
                     <div class="text">
-                      <h1>BestBuy AR Chatbot</h1>
-                          <h2 class="animate-text">JavaScript, React, NodeJs, AR.Js, Microsoft Azure, BestBuy API </h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
+                        <h1>BestBuy AR Chatbot</h1>
+                        <h2 class="animate-text">
+                            JavaScript, React, NodeJs, AR.Js, Microsoft Azure,
+                            BestBuy API
+                        </h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
 
-
-            <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
-                  <div class="text">
-                      <h1>Nutrient Calculator and Fitness App</h1>
-                          <h2 class="animate-text">Java, Java Swing, Nutritionix API</h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
-              
-
-             <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
-                  <div class="text">
-                      <h1>Recipe Finder and Shopping List</h1>
-                          <h2 class="animate-text">JavaScript, NodeJs, Webpack, Babel, Forkify API</h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80"
+                    />
                     <div class="text">
-                      <h1>Language Filter Chrome Extension</h1>
-                          <h2 class="animate-text">JavaScript, JQuery</h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
+                        <h1>Nutrient Calculator and Fitness App</h1>
+                        <h2 class="animate-text">
+                            Java, Java Swing, Nutritionix API
+                        </h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80"
+                    />
+                    <div class="text">
+                        <h1>Recipe Finder and Shopping List</h1>
+                        <h2 class="animate-text">
+                            JavaScript, NodeJs, Webpack, Babel, Forkify API
+                        </h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
-                  <div class="text">
-                      <h1>Unity Game</h1>
-                          <h2 class="animate-text">C#, Unity</h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
-              
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80"
+                    />
+                    <div class="text">
+                        <h1>Language Filter Chrome Extension</h1>
+                        <h2 class="animate-text">JavaScript, JQuery</h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
 
-             <div class="tile"> 
-                <img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
-                  <div class="text">
-                      <h1>Budgetting App</h1>
-                          <h2 class="animate-text">JavaScript</h2>
-                              <p class="animate-text"> description </p>
-                      <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                      </div>
-                  </div>
-              </div>
-        </div>
-    </div>
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80"
+                    />
+                    <div class="text">
+                        <h1>Unity Game</h1>
+                        <h2 class="animate-text">C#, Unity</h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
 
-    
-    <div class='section-container'> 
-        
-        <div class = 'icon-wrap'>
-            <h1 class = 'header work-header'>
-                Work
-            </h1>
-            <a href="#" class="social-buttons__button social-button social-button--mail" aria-label="Facebook">
-                <span class="social-button__inner">
-                 <i class="fas fa-envelope"></i>
-                </span>
-              </a>
-            <a href="#" class="social-buttons__button social-button social-button--linkedin" aria-label="LinkedIn">
-                <span class="social-button__inner">
-                 <i class="fab fa-linkedin-in"></i>
-                </span>
-            </a>
-        </div>
-
-
-        <h2 class = 'work-descrip'>
-                Currently I am in the UBC Computer Science Co-Op Program. If all goes well, my first work term will be Fall 2020!
-        </h2>
-    </div>
-    
-
-
-    <div class='section-container'>
-       
-        <div class = 'icon-wrap'>
-            <h1 class ='header me-header'> About </h1>
-            <a href="#" class="social-buttons__button social-button social-button--instagram" aria-label="SnapChat">
-                <span class="social-button__inner">
-                 <i class="fab fa-instagram"></i>
-                </span>
-            </a>     
-            <a href="#" class="social-buttons__button social-button social-button--steam" aria-label="SnapChat">
-                <span class="social-button__inner">
-                 <i class="fab fa-spotify"></i>
-                </span>
-            </a>           
+                <div class="tile">
+                    <img
+                        src="https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80"
+                    />
+                    <div class="text">
+                        <h1>Budgetting App</h1>
+                        <h2 class="animate-text">JavaScript</h2>
+                        <p class="animate-text">description</p>
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-
-        
-        
-        <h2 class = 'me-descrip'>
-
-            <div class='year'>
-                I am a 2<sup>nd</sup> year Computer Science student at the University of British Columbia. When I'm not coding, I enjoy going to the gym, boxing, playing games and watching the NBA.
+        <div class="section-container">
+            <div class="icon-wrap">
+                <h1 class="header work-header">
+                    Work
+                </h1>
+                <a
+                    href="#"
+                    class="social-buttons__button social-button social-button--mail"
+                    aria-label="Facebook"
+                >
+                    <span class="social-button__inner">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                </a>
+                <a
+                    href="#"
+                    class="social-buttons__button social-button social-button--linkedin"
+                    aria-label="LinkedIn"
+                >
+                    <span class="social-button__inner">
+                        <i class="fab fa-linkedin-in"></i>
+                    </span>
+                </a>
             </div>
 
-            <div class = 'me-inner-container'>
-                For as long as I can remember, I've always loved building and creating things. Baby blocks to Legos, Legos to PCs, then PCs to lines of code.
-                I am just so fascinated by how you can take such small things, and if you put them together <em>just</em> the right way, you can end up with something truly great. It's like magic to me.
+            <h2 class="work-descrip">
+                Currently I am in the UBC Computer Science Co-Op Program. If all
+                goes well, my first work term will be Fall 2020!
+            </h2>
+        </div>
+
+        <div class="section-container">
+            <div class="icon-wrap">
+                <h1 class="header me-header">About</h1>
+                <a
+                    href="#"
+                    class="social-buttons__button social-button social-button--instagram"
+                    aria-label="SnapChat"
+                >
+                    <span class="social-button__inner">
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                </a>
+                <a
+                    href="#"
+                    class="social-buttons__button social-button social-button--steam"
+                    aria-label="SnapChat"
+                >
+                    <span class="social-button__inner">
+                        <i class="fab fa-spotify"></i>
+                    </span>
+                </a>
             </div>
+
+            <h2 class="me-descrip">
+                <div class="year">
+                    I am a 2<sup>nd</sup> year Computer Science student at the
+                    University of British Columbia. When I'm not coding, I enjoy
+                    going to the gym, boxing, playing games and watching the
+                    NBA.
+                </div>
+
+                <div class="me-inner-container">
+                    For as long as I can remember, I've always loved building
+                    and creating things. Baby blocks to Legos, Legos to PCs,
+                    then PCs to lines of code. I am just so fascinated by how
+                    you can take such small things, and if you put them together
+                    <em>just</em> the right way, you can end up with something
+                    truly great. It's like magic to me.
+                </div>
 
                 <div class="quote">
                     <em>
-                     “The whole is greater than the sum of its parts.”   
+                        “The whole is greater than the sum of its parts.”
                     </em>
                     <div id="aristotle">
                         - Aristotle
                     </div>
                 </div>
-        
-            <div class = 'me-inner-container'>   
-                Although the first time I heard this quote was in Grade 12, I was already believing it my entire life. My first dream job was to be an architect! My creativity would be able to roam free and I could build to my hearts 
-                content. It wasn't until I started playing PC games and building PCs that I realized my love for computers. My brother in-law introduced me to the world of Software Developement and when I found out that I could express my
-                creative side while building meaningful things, I got hooked and never looked back.
+
+                <div class="me-inner-container">
+                    Although the first time I heard this quote was in Grade 12,
+                    I was already believing it my entire life. My first dream
+                    job was to be an architect! My creativity would be able to
+                    roam free and I could build to my hearts content. It wasn't
+                    until I started playing PC games and building PCs that I
+                    realized my love for computers. My brother in-law introduced
+                    me to the world of Software Developement and when I found
+                    out that I could express my creative side while building
+                    meaningful things, I got hooked and never looked back.
+                </div>
+            </h2>
+        </div>
+
+        <div class="section-container">
+            <div class="imageContainer">
+                <img class="palletteImages" src="resources/sushiSQ.jpg" />
+                <img class="palletteImages" src="resources/lanternSQ.jpg" />
+                <img class="palletteImages" src="resources/yodaSQ.jpg" />
+                <img class="palletteImages" src="resources/rxSQ.jpg" />
+                <img class="palletteImages" src="resources/japSQ.jpg" />
+                <img class="palletteImages" src="resources/ballSQ.jpg" />
+                <img class="palletteImages" src="resources/gumSQ.jpg" />
+                <img class="palletteImages" src="./resources/bcgjSQ.PNG" />
             </div>
-            
-        </h2>
-    </div>
+        </div>
 
+        <div id="contact_buttons" class="lt-centre">
+            <p class="copyright">made by Anson Chung, © 2020</p>
 
-    <div class = 'section-container'>
-        <div class="imageContainer">
-            <img class="palletteImages" src="resources/sushiSQ.jpg">
-            <img class="palletteImages" src="resources/lanternSQ.jpg">
-            <img class="palletteImages" src="resources/yodaSQ.jpg">
-            <img class="palletteImages" src="resources/rxSQ.jpg">
-            <img class="palletteImages" src="resources/japSQ.jpg">
-            <img class="palletteImages" src="resources/ballSQ.jpg">
-            <img class="palletteImages" src="resources/gumSQ.jpg">
-            <img class="palletteImages" src="./resources/bcgjSQ.PNG">
-          </div> 
-    </div>
+            <a target="k" href="https://www.linkedin.com">| linkedin |</a>
 
-    <div id="contact_buttons" class="lt-centre">
-        <p class = 'copyright'>made by Anson Chung, © 2020</p>
-        
-          <a target="k" href="https://www.linkedin.com">| linkedin |</a>
-        
-          <a target="" href="mailto:anson1014@hotmail.com">| email |</a>
-        
-          <a target="" href="https://github.com/anson1014">| github |</a>
+            <a target="" href="mailto:anson1014@hotmail.com">| email |</a>
 
-      </div>
-    
-</body>
-<script src = "index.js"></script>
+            <a target="" href="https://github.com/anson1014">| github |</a>
+        </div>
+    </body>
+    <script src="index.js"></script>
 </html>
