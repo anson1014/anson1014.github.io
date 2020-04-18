@@ -8,6 +8,7 @@
 
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -15,7 +16,6 @@ body {
     min-width: 100%;
     padding: 0;
     margin: 0;
-    scroll-behavior: smooth;
     background-color: #292929;
 }
 
@@ -35,6 +35,70 @@ body {
 }
 
 /* ----------------TEXT ANIMATION---------------- */
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 160px;
+    overflow: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ecf0f1;
+}
+.content__container {
+    font-weight: 600;
+    overflow: hidden;
+    height: 40px;
+    padding: 0 40px;
+}
+.content__container:before {
+    content: '[';
+    left: 0;
+}
+.content__container:after {
+    content: ']';
+    position: absolute;
+    right: 0;
+}
+.content__container:after,
+.content__container:before {
+    position: absolute;
+    top: 0;
+    color: #16a085;
+    font-size: 42px;
+    line-height: 40px;
+    -webkit-animation-name: opacity;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.content__container__text {
+    display: inline;
+    float: left;
+    margin: 0;
+}
+.content__container__list {
+    margin-top: 0;
+    padding-left: 110px;
+    text-align: left;
+    list-style: none;
+    -webkit-animation-name: change;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: change;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.content__container__list__item {
+    line-height: 40px;
+    margin: 0;
+}
 
 @-webkit-keyframes opacity {
     0%,
@@ -862,7 +926,7 @@ h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         color: white;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .content {
         position: absolute;
@@ -1135,7 +1199,7 @@ h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         color: white;
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .content {
         position: absolute;
@@ -1291,7 +1355,7 @@ h2 {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         color: white;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .content {
