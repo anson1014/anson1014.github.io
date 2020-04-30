@@ -434,11 +434,11 @@ h2 {
 }
 
 .palletteImages:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 
     -webkit-box-shadow: 0 58px 36px -56px black;
     -moz-box-shadow: 0 58px 36px -56px black;
