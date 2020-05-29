@@ -433,6 +433,7 @@ h2 {
     grid-row-gap: 3.5%;
 }
 
+
 .palletteImages:hover {
     transform: scale(1.5);
     -webkit-transform: scale(1.5);
