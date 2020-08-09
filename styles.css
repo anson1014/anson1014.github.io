@@ -370,6 +370,28 @@ h2 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+.work-title {
+    color: #d0d9fc;
+    font-size: 35px;
+    font-family: 'Montserrat';
+    margin-top: 40px;
+    padding-left: 0.7em;
+    font-weight: 'lo';
+}
+
+.work-date {
+    font-size: 20px;
+    margin: 10px 0 0 20px;
+}
+
+.work-duties {
+    border-radius: 25px;
+    margin-top: -0.5em;
+    margin-left: 0.5em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+}
+
 /* ---------------------------ABOUT ME-------------------------- */
 
 .me-descrip {
