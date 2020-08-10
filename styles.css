@@ -389,9 +389,12 @@ h2 {
     margin-top: -0.5em;
     margin-left: 0.5em;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    font-size: 25px;
+    font-size: 20px;
 }
 
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
 /* ---------------------------ABOUT ME-------------------------- */
 
 .me-descrip {
