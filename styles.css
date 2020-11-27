@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-weight: 400;
     letter-spacing: 1px;
     color: white;
@@ -44,7 +44,7 @@ body {
     transform: translate(-50%, -50%);
     height: 160px;
     overflow: hidden;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-size: 35px;
     line-height: 40px;
     color: #ecf0f1;
@@ -56,11 +56,11 @@ body {
     padding: 0 40px;
 }
 .content__container:before {
-    content: '[';
+    content: "[";
     left: 0;
 }
 .content__container:after {
-    content: ']';
+    content: "]";
     position: absolute;
     right: 0;
 }
@@ -250,7 +250,7 @@ body {
     box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
     overflow: hidden;
     color: white;
-    font-family: 'bebas', sans-serif !important;
+    font-family: "bebas", sans-serif !important;
 }
 .tile img {
     height: 100%;
@@ -289,7 +289,7 @@ body {
 .animate-text {
     opacity: 0;
     transition: all 0.6s ease-in-out;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .tile:hover {
     /*   background-color:#99aeff; */
@@ -346,7 +346,7 @@ body {
 /* ---------------------------WORK-------------------------- */
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     color: white;
     font-size: 2em;
@@ -373,10 +373,10 @@ h2 {
 .work-title {
     color: #d0d9fc;
     font-size: 35px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     margin-top: 40px;
     padding-left: 0.7em;
-    font-weight: 'lo';
+    font-weight: "lo";
 }
 
 .work-date {
@@ -398,7 +398,7 @@ li:not(:last-child) {
 /* ---------------------------ABOUT ME-------------------------- */
 
 .me-descrip {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.87);
     font-size: 25px;
@@ -412,13 +412,13 @@ li:not(:last-child) {
 .year {
     color: #d0d9fc;
     font-size: 35px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     padding-left: 0.2em;
-    font-weight: 'lo';
+    font-weight: "lo";
 }
 
 .me-inner-container {
-    font-family: 'poppins', sans-serif;
+    font-family: "poppins", sans-serif;
     font-weight: 100;
     color: rgba(255, 255, 255, 0.87);
     font-size: 25px;
@@ -433,7 +433,7 @@ li:not(:last-child) {
 .quote {
     padding: 1em 0 1em 0;
     font-size: 30px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
     color: white;
 }
@@ -457,7 +457,6 @@ li:not(:last-child) {
     grid-gap: 2%;
     grid-row-gap: 3.5%;
 }
-
 
 .palletteImages:hover {
     transform: scale(1.5);
@@ -534,7 +533,7 @@ li:not(:last-child) {
     width: 40%;
 }
 .social-button::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 50%;
@@ -616,7 +615,7 @@ li:not(:last-child) {
 
 .copyright {
     color: lightgrey;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.1em;
     margin-top: 0;
     margin-bottom: 30px;
@@ -625,7 +624,7 @@ li:not(:last-child) {
 
 #contact_buttons a {
     margin-top: 1em;
-    font-family: 'Courier Prime', 'monospace';
+    font-family: "Courier Prime", "monospace";
     font-size: 1em;
     color: grey;
     padding: 1em 0.5em 3em 0.5em;
@@ -637,7 +636,7 @@ li:not(:last-child) {
 
 @media (min-width: 300px) {
     h2 {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 100;
         color: white;
         font-size: 1.3em;
@@ -651,7 +650,7 @@ li:not(:last-child) {
         height: 160px;
         width: 330px;
         overflow: hidden;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 22px;
         line-height: 22px;
         color: white;
@@ -663,11 +662,11 @@ li:not(:last-child) {
         padding: 0 40px;
     }
     .content__container:before {
-        content: '[';
+        content: "[";
         left: 0;
     }
     .content__container:after {
-        content: ']';
+        content: "]";
         position: absolute;
         right: 0;
     }
@@ -721,7 +720,7 @@ li:not(:last-child) {
         height: 20px;
         top: 50%;
         margin-top: 0;
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         color: rgb(226, 226, 226);
         font-weight: 600;
     }
@@ -745,7 +744,7 @@ li:not(:last-child) {
         display: grid;
         justify-content: center;
         align-content: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 17px;
         font-weight: 600;
         position: relative;
@@ -758,7 +757,6 @@ li:not(:last-child) {
     .btn:hover {
         background: #b7d9ff;
         color: black;
-        font-size: 20px;
     }
 
     .wrap {
@@ -778,7 +776,7 @@ li:not(:last-child) {
     }
 
     .me-inner-container {
-        font-family: 'poppins', sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 100;
         color: rgba(255, 255, 255, 0.87);
         font-size: 15px;
@@ -793,7 +791,7 @@ li:not(:last-child) {
 
 @media (min-width: 500px) {
     h2 {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 100;
         color: white;
         font-size: 1.5em;
@@ -807,7 +805,7 @@ li:not(:last-child) {
         height: 160px;
         width: 450px;
         overflow: hidden;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 30px;
         line-height: 30px;
         color: white;
@@ -819,11 +817,11 @@ li:not(:last-child) {
         padding: 0 40px;
     }
     .content__container:before {
-        content: '[';
+        content: "[";
         left: 0;
     }
     .content__container:after {
-        content: ']';
+        content: "]";
         position: absolute;
         right: 0;
     }
@@ -876,7 +874,7 @@ li:not(:last-child) {
         height: 25px;
         top: 50%;
         margin-top: 0;
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         color: rgb(226, 226, 226);
         font-weight: 600;
     }
@@ -900,7 +898,7 @@ li:not(:last-child) {
         display: grid;
         justify-content: center;
         align-content: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 22px;
         font-weight: 600;
         position: relative;
@@ -913,7 +911,6 @@ li:not(:last-child) {
     .btn:hover {
         background: #b7d9ff;
         color: black;
-        font-size: 30px;
     }
 
     .wrap {
@@ -928,13 +925,13 @@ li:not(:last-child) {
     .year {
         color: #d0d9fc;
         font-size: 30px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         padding-left: 0.2em;
-        font-weight: 'lo';
+        font-weight: "lo";
     }
 
     .me-inner-container {
-        font-family: 'poppins', sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 100;
         color: rgba(255, 255, 255, 0.87);
         font-size: 20px;
@@ -949,7 +946,7 @@ li:not(:last-child) {
 
 @media (min-width: 850px) {
     h2 {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 100;
         color: white;
         font-size: 1.5em;
@@ -963,7 +960,7 @@ li:not(:last-child) {
         height: 160px;
         width: 480px;
         overflow: hidden;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 35px;
         line-height: 35px;
         color: white;
@@ -975,11 +972,11 @@ li:not(:last-child) {
         padding: 0 40px;
     }
     .content__container:before {
-        content: '[';
+        content: "[";
         left: 0;
     }
     .content__container:after {
-        content: ']';
+        content: "]";
         position: absolute;
         right: 0;
     }
@@ -1032,7 +1029,7 @@ li:not(:last-child) {
         height: 35px;
         top: 50%;
         margin-top: 0;
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         color: rgb(226, 226, 226);
         font-weight: 600;
     }
@@ -1050,7 +1047,7 @@ li:not(:last-child) {
         display: grid;
         justify-content: center;
         align-content: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 30px;
         font-weight: 600;
         position: relative;
@@ -1063,7 +1060,6 @@ li:not(:last-child) {
     .btn:hover {
         background: #b7d9ff;
         color: black;
-        font-size: 43px;
     }
 
     .wrap {
@@ -1078,13 +1074,13 @@ li:not(:last-child) {
     .year {
         color: #d0d9fc;
         font-size: 35px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         padding-left: 0.2em;
-        font-weight: 'lo';
+        font-weight: "lo";
     }
 
     .me-inner-container {
-        font-family: 'poppins', sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 100;
         color: rgba(255, 255, 255, 0.87);
         font-size: 25px;
@@ -1222,7 +1218,7 @@ li:not(:last-child) {
 
 @media (min-width: 1105px) {
     h2 {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 100;
         color: white;
         font-size: 1.5em;
@@ -1236,7 +1232,7 @@ li:not(:last-child) {
         height: 160px;
         width: 550px;
         overflow: hidden;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 40px;
         line-height: 40px;
         color: white;
@@ -1248,11 +1244,11 @@ li:not(:last-child) {
         padding: 0 40px;
     }
     .content__container:before {
-        content: '[';
+        content: "[";
         left: 0;
     }
     .content__container:after {
-        content: ']';
+        content: "]";
         position: absolute;
         right: 0;
     }
@@ -1305,7 +1301,7 @@ li:not(:last-child) {
         height: 40px;
         top: 50%;
         margin-top: 0;
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         color: rgb(226, 226, 226);
         font-weight: 600;
     }
@@ -1329,7 +1325,7 @@ li:not(:last-child) {
         display: grid;
         justify-content: center;
         align-content: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 30px;
         font-weight: 600;
         position: relative;
@@ -1342,7 +1338,6 @@ li:not(:last-child) {
     .btn:hover {
         background: #b7d9ff;
         color: black;
-        font-size: 43px;
     }
 
     .wrap {
@@ -1357,13 +1352,13 @@ li:not(:last-child) {
     .year {
         color: #d0d9fc;
         font-size: 35px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         padding-left: 0.2em;
-        font-weight: 'lo';
+        font-weight: "lo";
     }
 
     .me-inner-container {
-        font-family: 'poppins', sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 100;
         color: rgba(255, 255, 255, 0.87);
         font-size: 25px;
@@ -1378,7 +1373,7 @@ li:not(:last-child) {
 
 @media (min-width: 1411px) {
     h2 {
-        font-family: 'Roboto', sans-serif;
+        font-family: "Roboto", sans-serif;
         font-weight: 100;
         color: white;
         font-size: 1.5em;
@@ -1393,7 +1388,7 @@ li:not(:last-child) {
         height: 160px;
         width: 700px;
         overflow: hidden;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-size: 55px;
         line-height: 55px;
         color: white;
@@ -1405,11 +1400,11 @@ li:not(:last-child) {
         padding: 0 40px;
     }
     .content__container:before {
-        content: '[';
+        content: "[";
         left: 0;
     }
     .content__container:after {
-        content: ']';
+        content: "]";
         position: absolute;
         right: 0;
     }
@@ -1462,7 +1457,7 @@ li:not(:last-child) {
         height: 40px;
         top: 50%;
         margin-top: 0;
-        font-family: 'Fira Mono', monospace;
+        font-family: "Fira Mono", monospace;
         color: rgb(226, 226, 226);
         font-weight: 600;
     }
@@ -1486,7 +1481,7 @@ li:not(:last-child) {
         display: grid;
         justify-content: center;
         align-content: center;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-size: 30px;
         font-weight: 600;
         position: relative;
@@ -1499,7 +1494,6 @@ li:not(:last-child) {
     .btn:hover {
         background: #b7d9ff;
         color: black;
-        font-size: 43px;
     }
 
     .wrap {
@@ -1514,13 +1508,13 @@ li:not(:last-child) {
     .year {
         color: #d0d9fc;
         font-size: 35px;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         padding-left: 0.2em;
-        font-weight: 'lo';
+        font-weight: "lo";
     }
 
     .me-inner-container {
-        font-family: 'poppins', sans-serif;
+        font-family: "poppins", sans-serif;
         font-weight: 100;
         color: rgba(255, 255, 255, 0.87);
         font-size: 25px;
